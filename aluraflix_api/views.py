@@ -1,8 +1,8 @@
-from rest_framework import viewsets #cria o pacote de visulização
-from aluraflix_api.models import videos #importa o modelo do banco de dados
-from aluraflix_api.serializer import VideoSerializer #importa nosso serializador
+from django.http import JsonResponse
 
-class VideosViewSet(viewsets.ModelViewSet):
-    '''Exibindo todos os videos'''
-    queryset = videos.objects.all() #filtro seria aqui
-    serializer_class = VideoSerializer
+# Create your views here.
+
+def todos_videos(request):
+    if request.method == 'GET':
+        videos = {'id':'All', 'titulo':'All_title','dercição':'All','url':'All-urls'}
+        return JsonResponse(videos)
