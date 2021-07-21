@@ -9,4 +9,4 @@ class videos (models.Model):
     url = models.CharField(max_length=100)
 
     def __str__(self):
-        return self.titulo, self.descricao, self.url
+        return self.titulo
