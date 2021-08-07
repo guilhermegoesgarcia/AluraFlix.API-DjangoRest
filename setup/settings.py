@@ -32,6 +32,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+
     'aluraflix_api',
     'rest_framework',
     'django.contrib.admin',
