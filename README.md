@@ -40,14 +40,17 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
   
   
 ## Instalando as bibliotecas necessarias:    
-        
+    
+    > Python 3:
+        • https://www.python.org/
+  
     > NodeJs:
         • https://nodejs.org/pt-br/
   
     > React: 
         • npm install react-scripts@2.1.8
         • npm install axios
-          (Objs: instalar na pasta que contem os arquivos do react)
+          (Obs: instalar na pasta que contem os arquivos do react)
   
     > Django:
        • https://www.django-rest-framework.org/
