@@ -41,8 +41,18 @@ Este projeto foi desenvolvido usando as seguintes tecnologias:
   
 ## Instalando as bibliotecas necessarias:    
         
-### NodeJs >
-    
+    > NodeJs:
+        • https://nodejs.org/pt-br/
+  
+    > React: 
+        • npm install react-scripts@2.1.8
+        • npm install axios
+          (Objs: instalar na pasta que contem os arquivos do react)
+  
+    > Django:
+       • https://www.django-rest-framework.org/
+       • instalar 'django-cors-headers' para conectar a api no front>> https://github.com/adamchainz/django-cors-headers
+
 
 
 
