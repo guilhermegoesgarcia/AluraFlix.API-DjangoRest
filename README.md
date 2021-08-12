@@ -31,11 +31,17 @@ Este projeto consiste no desenvolvimento de uma API para conexão com a platafor
 Este projeto foi desenvolvido usando as seguintes tecnologias:
     
     • Python 3
+    • NodeJs
+    • React Scripts@2.1.8
+    • Axios  React
     • Django REST framework
+    • Django Cors Headers
     • SQLite
-    
+  
+  
+## Instalando as bibliotecas necessarias:    
         
-
+### NodeJs >
     
 
 
